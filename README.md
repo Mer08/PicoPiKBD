@@ -1,13 +1,16 @@
-# RGB.NET-PicoPi
-Firmware for the Raspberry Pi Pico (RP2040) to be used with [RGB.NET](https://github.com/DarthAffe/RGB.NET).
+# PicoPiKBD
+PicoPiKBD is a drop-in PCB replacement for the KROM Kernel 100% keyboard.
+Building the firmware requires the [Pico SDK](https://github.com/raspberrypi/pico-sdk).
+The goal of this project is to release an open-source PCB that reuses most of the original PCB's components and fully supports PC RGB ([RGB .NET](https://github.com/DarthAffe/RGB.NET)/[ArtemisRGB](https://artemis-rgb.com)) and keep the original functions of the keyboard:
+- [ ] Toggleable 6/N-Key rollover
+- [ ] Media controls
+- [ ] Built-in PC RGB control
+- [ ] Windows key lock
+- [ ] Arrow keys to WASD and vice versa
 
-
-Building the firmware requires the [pico sdk](https://github.com/raspberrypi/pico-sdk).
-
-For precompiled binaries check https://github.com/DarthAffe/RGB.NET-PicoPi/releases
-
-## How to use
-1. Load the Pico in boot-mode (pressing the small button on startup) and copy the firmware file (RGB.NET.uf2) onto it.
+<sup><sub>*Checked boxes indicate current project status</sub></sup>
+## How to use (placeholder until PCB is done and fully working)
+1. Load the Pico in boot-mode (pressing the small button on startup) and copy the firmware file (KernelPicoPiRGB.uf2) onto it.
 2. Restart the Pico and open the Config-tool. Configure the amount of leds (set channels to 0 if unused) and if needed the used pins.
 3. Restart the Pico
 
